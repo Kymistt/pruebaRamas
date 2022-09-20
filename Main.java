@@ -10,11 +10,11 @@ public class Main {
         name = sc.nextLine();
 
         String age;
-        System.out.printf("Introduzca su edad: ");
+        System.out.print("Introduzca su edad: ");
         age = sc.nextLine();
 
 
-        System.out.printf("Hola " +name+" tienes "+age+" años " );
+        System.out.print("Hola " +name+" tienes "+age+" años " );
 
 
     }
