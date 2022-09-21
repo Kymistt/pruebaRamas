@@ -9,12 +9,12 @@ public class Main {
         System.out.print("Introduzca su nombre: ");
         name = sc.nextLine();
 
-        String age;
-        System.out.print("Introduzca su edad: ");
-        age = sc.nextLine();
+        int dia;
+        System.out.print("Introduzca su dia de nacimiento: ");
+        dia = sc.nextInt();
 
 
-        System.out.print("Hola " +name+" tienes "+age+" años " );
+        System.out.print("Hola " +name+" naciste el dia "+dia );
 
 
     }
